@@ -1,4 +1,4 @@
-import { BlurEvent } from '../../src/Actions';
+import { BlurEvent } from '..';
 
 const mockState = {
   inputValue: 'heel',

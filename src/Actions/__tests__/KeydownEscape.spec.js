@@ -1,4 +1,4 @@
-import { KeydownEscape } from '../../src/Actions';
+import { KeydownEscape } from '..';
 
 // const KeydownEscape = (state) => ({
 //   ...state,

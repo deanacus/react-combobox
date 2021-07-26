@@ -1,4 +1,4 @@
-import { useComboBoxState } from '../../src/Hooks';
+import { useComboBoxState } from '..';
 
 describe('useComboBoxState', () => {
   it.todo('should do something');

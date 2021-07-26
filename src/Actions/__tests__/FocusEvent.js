@@ -1,4 +1,4 @@
-import { FocusEvent } from '../../src/Actions';
+import { FocusEvent } from '..';
 
 const mockState = {
   inputValue: '',

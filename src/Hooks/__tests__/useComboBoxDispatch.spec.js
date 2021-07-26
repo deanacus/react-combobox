@@ -1,4 +1,4 @@
-import { useComboBoxDispatch } from '../../src/Hooks';
+import { useComboBoxDispatch } from '..';
 
 describe('useComboBoxDispatch', () => {
   it.todo('should do something');

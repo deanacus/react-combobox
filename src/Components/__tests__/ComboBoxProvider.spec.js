@@ -1,4 +1,4 @@
-import { ComboBoxProvider } from '../../src/Components';
+import { ComboBoxProvider } from '..';
 
 describe('ComboBoxProvider', () => {
   it.todo('should render');

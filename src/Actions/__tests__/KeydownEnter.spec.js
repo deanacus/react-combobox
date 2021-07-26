@@ -1,4 +1,4 @@
-import { KeydownEnter } from '../../src/Actions';
+import { KeydownEnter } from '..';
 
 describe('KeydownEnter', () => {
   it.todo('should set the inputValue to activeOpt.label');

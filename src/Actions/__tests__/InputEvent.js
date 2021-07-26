@@ -1,4 +1,4 @@
-import { InputEvent } from '../../src/Actions';
+import { InputEvent } from '..';
 
 const mockState = {
   inputValue: '',
