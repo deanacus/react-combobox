@@ -4,13 +4,17 @@
   "description": "",
   "main": "dist/index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "jest"
   },
   "keywords": [],
   "author": "Dean Harris <dean@harris.tc> (https://deanacus.com/)",
   "license": "MIT",
   "devDependencies": {
+    "@babel/preset-env": "^7.14.8",
+    "@babel/preset-react": "^7.14.5",
+    "@testing-library/jest-dom": "^5.14.1",
     "@testing-library/react": "^12.0.0",
+    "babel-jest": "^27.0.6",
     "esbuild": "^0.12.15",
     "jest": "^27.0.6",
     "react": "^17.0.2",
