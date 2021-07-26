@@ -1,5 +1,4 @@
-import useComboBoxDispatch from '../Hooks/useComboBoxDispatch';
-import useComboBoxState from '../Hooks/useComboBoxState';
+import { useComboBoxDispatch, useComboBoxState } from '../Hooks';
 
 const Input = ({
   label,
@@ -11,7 +10,7 @@ const Input = ({
   error,
   onChange,
 }) => {
-  const { inputValue, listBoxExpanded } = useComboBoxState();
+  const { inputValue, listBoxExpanded, activeOpt } = useComboBoxState();
   const dispatch = useComboBoxDispatch();
 
   const handleChange = (e) => {
@@ -61,7 +60,7 @@ const Input = ({
           placeholder={placeholder}
           disabled={disabled}
           required={required}
-          aria-autocomplete={'list'}
+          aria-autocomplete="list"
           aria-controls={`combobox-${id}-data`}
           aria-expanded={listBoxExpanded}
           aria-haspopup={true}
